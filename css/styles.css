@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+p {
+    color: #8f8f8f;
+}
+.container-padding {
+    padding: 7% 15%;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+
+/* Features */
+
+#features {
+    background-color: #fff;
+    position: relative;
+
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.feature-box-heading {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.icon {
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+.card-heading {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* CTA */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+#cta h3 {
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* Media Queries */
+
+@media (min-width: 991px) and (max-width: 1290px){
+    .container-fluid {
+        padding: 3% 4% 7%;
+    }
+}
+@media (max-width: 992px){
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
