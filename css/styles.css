@@ -162,4 +162,13 @@ p {
         position: static;
         transform: rotate(0);
     }
+        p {
+        font-size: 1.3rem;
+    }
+    .feature-box-heading {
+        font-size: 1.8rem;
+    }
+    .nav-link {
+        font-size: 1.8rem;
+    }
 }
